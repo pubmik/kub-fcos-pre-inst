@@ -2,16 +2,16 @@ Installation k8s 18.5 auf fcos 31, container runtime api cri-o:
 sämtliche scripts sind als regular user ausführbar (u1)
 
 workers:
-inst-k8s-1.sh
-inst-k8s-2-firewalld.sh oder inst-k8s-2-iptables.sh
-inst-k8s-3.sh
-inst-post-k8s-init-3.sh
+sudo inst-k8s-1.sh
+sudo inst-k8s-2-firewalld.sh oder inst-k8s-2-iptables.sh
+sudo inst-k8s-3.sh
+sudo inst-post-k8s-init-3.sh (edit befor executing)
 
 master:
-inst-k8s-1.sh
-inst-k8s-2-firewalld.sh oder inst-k8s-2-iptables.sh
-inst-k8s-3.sh
-inst-k8s-4-calico.sh oder inst-k8s-4-flannel.sh
+sudo inst-k8s-1.sh
+sudo inst-k8s-2-firewalld.sh oder inst-k8s-2-iptables.sh
+sudo inst-k8s-3.sh
+sudo inst-k8s-4-calico.sh oder inst-k8s-4-flannel.sh
 inst-post-k8s-init-1.sh
 inst-post-k8s-init-2-calico.sh oder inst-post-k8s-init-2-flannel.sh
 
